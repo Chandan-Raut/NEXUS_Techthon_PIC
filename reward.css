@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f6fff7;
+  color: #2f5939;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #b6e1c2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.slogan {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #356849;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e4329;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #064420;
+}
+
+.login-btn:hover {
+  background-color: #064420;
+}
+
+.rewards-section {
+  padding: 50px 0;
+  /* background: #e4f9ea; */
+  background: url(https://i.pinimg.com/1200x/e4/f2/3a/e4f23a358dd572f90270edad95b77f7f.jpg);
+  text-align: center;
+}
+
+.rewards-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1e4329;
+}
+
+.rewards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.reward-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.reward-card:hover {
+  transform: translateY(-5px);
+}
+
+.reward-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.reward-card h3 {
+  font-size: 1.1rem;
+  color: #2c5f41;
+  margin-bottom: 5px;
+}
+
+.reward-card p {
+  font-size: 0.95rem;
+  color: #377d5e;
+}
+
+footer {
+  background: #a0d9b4;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.reward-card .note {
+  font-size: 0.9rem;
+  color: #1c4c33;
+  font-weight: 500;
+  margin-top: 5px;
+}
+/* .reward-card:nth-child(1) {
+  border: 2px solid #3d9970;
+  background-color: #e6fff1;
+} */

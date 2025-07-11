@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  /* background: linear-gradient(to right, #e1f5fe, #e8f5e9); */
+  background: url(https://i.pinimg.com/1200x/e4/f2/3a/e4f23a358dd572f90270edad95b77f7f.jpg);
+  
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: #125b29;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background: #b6e1c2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e4329;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #064420;
+}
+
+header {
+  background: #b6e1c2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.league-table {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #aed581;
+  color: #33691e;
+}
+
+td {
+  background-color: #f1f8e9;
+}
+
+.motivation {
+  background-color: #fff3cd;
+  border-left: 6px solid #ffecb5;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #665c00;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  th, td {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+}
